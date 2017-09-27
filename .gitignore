@@ -2,6 +2,7 @@
 *.egg-info
 *.pyc
 .coverage
+.graphite
 htmlcov
 docs/_build
 dist
