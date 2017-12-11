@@ -1,5 +1,5 @@
 finders:
-  - graphite_api.finders.graphouse_api.GraphouseFinder 
+  - graphouse-graphite-api.graphite.GraphouseFinder
 
 functions:
   - graphite_api.functions.SeriesFunctions
