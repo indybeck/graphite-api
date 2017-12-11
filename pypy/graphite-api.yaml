@@ -1,0 +1,15 @@
+finders:
+  - graphite_api.finders.graphouse_api.GraphouseFinder 
+
+functions:
+  - graphite_api.functions.SeriesFunctions
+  - graphite_api.functions.PieFunctions
+
+time_zone: America/New_York
+
+graphouse:
+  url: http://localhost:2005
+
+statsd:
+  host: localhost
+
